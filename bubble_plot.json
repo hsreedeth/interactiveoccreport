@@ -77,20 +77,79 @@
         "Tertiary Education Teachers\u003cbr\u003e0.42%"
       ],
       "marker": {
-        "color": [    "#5A4860", "#5A4860", "#5A4860", "#5A4860", "#5A4860", 
-    "#CBA4BB", "#CBA4BB", "#CBA4BB", "#CBA4BB", "#CBA4BB",
-    "#CBA4BB", "#CBA4BB", "#CBA4BB", "#CBA4BB", "#CBA4BB",
-    "#CBA4BB", "#CBA4BB", "#CBA4BB", "#CBA4BB", "#CBA4BB",
-    "#CBA4BB", "#CBA4BB", "#CBA4BB", "#CBA4BB", "#CBA4BB",
-    "#F4E3DF", "#F4E3DF", "#F4E3DF", "#F4E3DF", "#F4E3DF", 
-    "#F4E3DF", "#F4E3DF", "#F4E3DF", "#F4E3DF", "#F4E3DF",
-    "#F4E3DF", "#F4E3DF", "#F4E3DF", "#F4E3DF", "#F4E3DF",
-    "#F4E3DF", "#F4E3DF", "#F4E3DF", "#F4E3DF", "#F4E3DF",
-    "#F4E3DF", "#F4E3DF", "#F4E3DF", "#F4E3DF", "#F4E3DF",
-    "#F4E3DF", "#F4E3DF", "#F4E3DF", "#F4E3DF", "#F4E3DF",
-    "#F4E3DF", "#F4E3DF", "#F4E3DF", "#F4E3DF", "#F4E3DF",
-    "#F4E3DF", "#F4E3DF", "#F4E3DF", "#F4E3DF", "#F4E3DF",
-    "#F4E3DF", "#F4E3DF", "#F4E3DF", "#F4E3DF", "#F4E3DF"
+        "color": [
+          "#F4E3DF",
+          "#F4E3DF",
+          "#F4E3DF",
+          "#F4E3DF",
+          "#F4E3DF",
+          "#CBA4BB",
+          "#CBA4BB",
+          "#CBA4BB",
+          "#CBA4BB",
+          "#CBA4BB",
+          "#CBA4BB",
+          "#CBA4BB",
+          "#CBA4BB",
+          "#CBA4BB",
+          "#CBA4BB",
+          "#CBA4BB",
+          "#CBA4BB",
+          "#CBA4BB",
+          "#CBA4BB",
+          "#CBA4BB",
+          "#CBA4BB",
+          "#CBA4BB",
+          "#CBA4BB",
+          "#CBA4BB",
+          "#CBA4BB",
+          "#5A4860",
+          "#5A4860",
+          "#5A4860",
+          "#5A4860",
+          "#5A4860",
+          "#5A4860",
+          "#5A4860",
+          "#5A4860",
+          "#5A4860",
+          "#5A4860",
+          "#5A4860",
+          "#5A4860",
+          "#5A4860",
+          "#5A4860",
+          "#5A4860",
+          "#5A4860",
+          "#5A4860",
+          "#5A4860",
+          "#5A4860",
+          "#5A4860",
+          "#5A4860",
+          "#5A4860",
+          "#5A4860",
+          "#5A4860",
+          "#5A4860",
+          "#5A4860",
+          "#5A4860",
+          "#5A4860",
+          "#5A4860",
+          "#5A4860",
+          "#5A4860",
+          "#5A4860",
+          "#5A4860",
+          "#5A4860",
+          "#5A4860",
+          "#5A4860",
+          "#5A4860",
+          "#5A4860",
+          "#5A4860",
+          "#5A4860",
+          "#5A4860",
+          "#5A4860",
+          "#5A4860",
+          "#5A4860",
+          "#5A4860",
+          "#5A4860",
+          "#5A4860"
         ],
         "line": {
           "color": "black",
@@ -1072,7 +1131,7 @@
           "linecolor": "white",
           "ticks": "",
           "title": {
-            "standoff": 20
+            "standoff": 15
           },
           "zerolinecolor": "white",
           "automargin": true,
@@ -1083,7 +1142,7 @@
           "linecolor": "white",
           "ticks": "",
           "title": {
-            "standoff": 20
+            "standoff": 15
           },
           "zerolinecolor": "white",
           "automargin": true,
@@ -1159,32 +1218,27 @@
     "paper_bgcolor": "white",
     "xaxis": {
       "title": {
-        "text": "Percentage of Total Skilled Occupations",
-        "standoff": 20
+        "text": "Percentage of Total Skilled Occupations"
       },
-      
       "showgrid": true,
       "gridwidth": 1,
       "gridcolor": "lightgrey",
-      "dash": "dot",
-      "zeroline": false,
-      "automargin": true
+      "griddash": "dot",
+      "zeroline": false
     },
     "yaxis": {
       "title": {
-        "text": "Occupation Hierarchy Level",
-        "standoff": 20
+        "text": "Occupation Hierarchy Level"
       },
-      "automargin": true,
       "tickvals": [
-        3,
+        1,
         2,
-        1
+        3
       ],
       "ticktext": [
-        "Major Group",
+        "Minor Group",
         "Sub-Major Group",
-        "Minor Group"
+        "Major Group"
       ],
       "showgrid": false,
       "zeroline": false,
