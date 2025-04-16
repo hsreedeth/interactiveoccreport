@@ -57,54 +57,7 @@
       document.body.classList.toggle('dark-mode');
 
 
-      let isDarkMode = false;
-    
-      document.getElementById('dark-mode-toggle').addEventListener('click', () => {
-        document.body.classList.toggle('dark-mode');
-        isDarkMode = !isDarkMode;
-    
-        // Bubble chart dark mode layout
-        const bubbleDark = {
-          paper_bgcolor: '#121212',
-          plot_bgcolor: '#121212',
-          font: { color: '#e0e0e0' },
-          xaxis: {
-            color: '#e0e0e0',
-            gridcolor: '#444'
-          },
-          yaxis: {
-            color: '#e0e0e0',
-            gridcolor: '#444'
-          }
-        };
-    
-        const bubbleLight = {
-          paper_bgcolor: '#ffffff',
-          plot_bgcolor: '#ffffff',
-          font: { color: '#2c2c2c' },
-          xaxis: {
-            color: '#2c2c2c',
-            gridcolor: 'lightgrey'
-          },
-          yaxis: {
-            color: '#2c2c2c',
-            gridcolor: 'lightgrey'
-          }
-        };
-    
-        // Apply relayout depending on mode
-        Plotly.relayout('bubble', isDarkMode ? bubbleDark : bubbleLight);
-    
-        // Sankey dark mode tweak (if applicable)
-        const sankeyFont = {
-          font: {
-            color: isDarkMode ? '#e0e0e0' : '#2c2c2c'
-          }
-        };
-        Plotly.relayout('sankey', sankeyFont);
-    
-      });
-      </script>
+  </script>
 
 
 </body>
