@@ -1218,18 +1218,23 @@
     "paper_bgcolor": "white",
     "xaxis": {
       "title": {
-        "text": "Percentage of Total Skilled Occupations"
+        "text": "Percentage of Total Skilled Occupations",
+        "standoff": 20
       },
+      
       "showgrid": true,
       "gridwidth": 1,
       "gridcolor": "lightgrey",
       "griddash": "dot",
-      "zeroline": false
+      "zeroline": false,
+      "automargin": true
     },
     "yaxis": {
       "title": {
-        "text": "Occupation Hierarchy Level"
+        "text": "Occupation Hierarchy Level",
+        "standoff": 20
       },
+      "automargin": true,
       "tickvals": [
         1,
         2,
