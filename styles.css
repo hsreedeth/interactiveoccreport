@@ -1,8 +1,46 @@
+        :root {
+      --bg-color: #ffffff;
+      --text-color: #2c2c2c;
+      --subtext-color: #555;
+      --highlight-color: orangered;
+      --divider-color: #5A4860;
+    }
+
     body {
+      background-color: var(--bg-color);
+      color: var(--text-color);
       font-family: 'Inter', sans-serif;
       margin: 40px;
-      color: #2c2c2c;
+      transition: background-color 0.3s ease, color 0.3s ease;
     }
+
+    /* Button Style */
+    #dark-mode-toggle {
+      position: fixed;
+      top: 20px;
+      left: 20px;
+      background: transparent;
+      border: none;
+      font-size: 1.5rem;
+      cursor: pointer;
+    }
+
+    /* Responsive Bubble container */
+    #bubble {
+      width: 100%;
+      max-width: 1600px;
+      margin: 40px auto;
+    }
+
+    /* Dark Mode Styles */
+    body.dark-mode {
+      --bg-color: #121212;
+      --text-color: #e0e0e0;
+      --subtext-color: #aaa;
+      --highlight-color: #ff7043;
+      --divider-color: #cccccc;
+    }
+
 
     h1 {
       font-size: 2.5em;
@@ -42,8 +80,3 @@
       font-weight: 400;
     }
 
-    #bubble {
-      width: 100%;
-      max-width: 1200px;
-      margin: 40px auto;
-    }
