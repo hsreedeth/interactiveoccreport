@@ -1167,7 +1167,7 @@
       "gridwidth": 1,
       "gridcolor": "lightgrey",
       "dash": "dot",
-      "zeroline": false,
+      "zeroline": true,
       "automargin": true
     },
     "yaxis": {
