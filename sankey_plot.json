@@ -3362,12 +3362,7 @@
           "lakecolor": "white"
         },
         "title": {
-          "x": 0.05,
-          "font": {
-            "family": "Inter, sans-serif",
-            "size": 8,
-            "color": "#2c2c2c"
-  }
+          "x": 0.05
         },
         "mapbox": {
           "style": "light"
@@ -3375,10 +3370,16 @@
       }
     },
     "title": {
-      "text": "Shortage Occupation to Heirarchical Groups: A Sankey Diagram"
+      "text": "Shortage Occupation to Heirarchical Groups: A Sankey Diagram",
+      "x":0.5,
+      "font": {
+        "family": "Inter, sans-serif",
+        "size": 8,
+        "color": "#808080"
+      }
     },
     "font": {
-      "size": 8,
+      "size": 7.5,
       "family": "Inter, sans-serif",
       "color": "#2c2c2c"
     },
