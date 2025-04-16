@@ -1072,7 +1072,7 @@
           "linecolor": "white",
           "ticks": "",
           "title": {
-            "standoff": 50
+            "standoff": 20
           },
           "zerolinecolor": "white",
           "automargin": true,
@@ -1083,7 +1083,7 @@
           "linecolor": "white",
           "ticks": "",
           "title": {
-            "standoff": 50
+            "standoff": 20
           },
           "zerolinecolor": "white",
           "automargin": true,
@@ -1177,9 +1177,9 @@
       },
       "automargin": true,
       "tickvals": [
-        3,
+        1,
         2,
-        1
+        3
       ],
       "ticktext": [
         "Major Group",
