@@ -1241,13 +1241,13 @@
         3
       ],
       "ticktext": [
-        "Minor Group",
+        "Major Group",
         "Sub-Major Group",
-        "Major Group"
+        "Minor Group"
       ],
       "showgrid": false,
       "zeroline": false,
-      "autorange": "reversed"
+      "autorange": "false"
     },
     "height": 500
   }
