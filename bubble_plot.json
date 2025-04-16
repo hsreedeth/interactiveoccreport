@@ -1188,7 +1188,7 @@
       ],
       "showgrid": false,
       "zeroline": false,
-      "autorange": "false"
+      "autorange": "reversed"
     },
     "height": 500
   }
