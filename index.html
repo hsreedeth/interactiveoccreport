@@ -39,6 +39,7 @@
   <div id="sankey" style="width: 100%; max-width: 1600px; margin: 0 auto;"></div>
 
   <script>
+    // Load bubble chart
     fetch('bubble_plot.json')
       .then(res => res.json())
       .then(data => {
@@ -46,19 +47,20 @@
       })
       .catch(error => console.error('Error loading Bubble JSON:', error));
 
+    // Load sankey chart
     fetch('sankey_plot.json')
       .then(res => res.json())
       .then(data => {
         Plotly.newPlot('sankey', data.data, data.layout, { displayModeBar: false });
       })
       .catch(error => console.error('Error loading Sankey JSON:', error));
-      const toggle = document.getElementById('dark-mode-toggle');
-      toggle.addEventListener('click', () => {
+
+    // Dark mode toggle
+    const toggle = document.getElementById('dark-mode-toggle');
+    toggle.addEventListener('click', () => {
       document.body.classList.toggle('dark-mode');
-
-
+    });
   </script>
-
 
 </body>
 </html>
