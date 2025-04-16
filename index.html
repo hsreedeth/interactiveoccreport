@@ -35,6 +35,13 @@
         Plotly.newPlot('bubble', data.data, data.layout, { displayModeBar: false }); // Plot the chart
       })
       .catch(error => console.error('Error loading JSON:', error));
+
+    fetch('sankey_plot.json')
+      .then(res => res.json())
+      .then(data => {
+        Plotly.newPlot('bubble', data.data, data.layout, { displayModeBar: false }); // Plot the chart
+      })
+      .catch(error => console.error('Error loading JSON:', error));
   </script>
 
 </body>
