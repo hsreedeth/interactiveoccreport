@@ -1131,7 +1131,7 @@
           "linecolor": "white",
           "ticks": "",
           "title": {
-            "standoff": 15
+            "standoff": 50
           },
           "zerolinecolor": "white",
           "automargin": true,
@@ -1142,7 +1142,7 @@
           "linecolor": "white",
           "ticks": "",
           "title": {
-            "standoff": 15
+            "standoff": 50
           },
           "zerolinecolor": "white",
           "automargin": true,
