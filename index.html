@@ -24,24 +24,33 @@
     Approximately <span class="highlight">35%</span> of the occupations on Australia's skilled occupation list are
     currently<br>classified as being in national shortage.
   </p>
-  
-  <div id="bubble" style = "width: 100%; max-width: 1600px; margin: 0 auto;"></div>
 
-  <!-- Embedding the Plotly HTML -->
+  <p class="subheading">
+    The following are the occupations that are listed in the shortage registry along with their respective categories based on ANZSCO codes.
+  </p>
+
+  <div id="bubble" style="width: 100%; max-width: 1600px; margin: 0 auto;"></div>
+
+  <h2 class="subheading">Sankey Diagram</h2>
+  <p class="subheading">
+    This diagram shows the occupational flow or mapping across different levels or sectors.
+  </p>
+  <div id="sankey" style="width: 100%; max-width: 1600px; margin: 0 auto;"></div>
+
   <script>
     fetch('bubble_plot.json')
       .then(res => res.json())
       .then(data => {
-        Plotly.newPlot('bubble', data.data, data.layout, { displayModeBar: false }); // Plot the chart
+        Plotly.newPlot('bubble', data.data, data.layout, { displayModeBar: false });
       })
-      .catch(error => console.error('Error loading JSON:', error));
+      .catch(error => console.error('Error loading Bubble JSON:', error));
 
     fetch('sankey_plot.json')
       .then(res => res.json())
       .then(data => {
-        Plotly.newPlot('bubble', data.data, data.layout, { displayModeBar: false }); // Plot the chart
+        Plotly.newPlot('sankey', data.data, data.layout, { displayModeBar: false });
       })
-      .catch(error => console.error('Error loading JSON:', error));
+      .catch(error => console.error('Error loading Sankey JSON:', error));
   </script>
 
 </body>
