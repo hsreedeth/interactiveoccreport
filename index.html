@@ -52,11 +52,9 @@
         Plotly.newPlot('sankey', data.data, data.layout, { displayModeBar: false });
       })
       .catch(error => console.error('Error loading Sankey JSON:', error));
-  </script>
-  <script>
-  const toggle = document.getElementById('dark-mode-toggle');
-  toggle.addEventListener('click', () => {
-    document.body.classList.toggle('dark-mode');
+      const toggle = document.getElementById('dark-mode-toggle');
+      toggle.addEventListener('click', () => {
+      document.body.classList.toggle('dark-mode');
   });
   </script>
 
