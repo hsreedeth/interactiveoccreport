@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Skilled Occupation Visuals</title>
+  <link rel="stylesheet" href="styles.css"> <!-- External stylesheet -->
+  <script src="https://cdn.plot.ly/plotly-5.0.0.min.js"></script> <!-- Plotly CDN -->
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@200&display=swap" rel="stylesheet"> <!-- Google Fonts -->
+</head>
+<body>
+
+  <h1>Visual Analysis of Skilled Occupations</h1>
+
+  <p>This page contains an interactive bubble plot visualizing the distribution of skilled occupations.</p>
+
+  <h2>1. Hierarchical Bubble Plot</h2>
+  <p>This bubble chart shows how skilled occupations are distributed across major, sub-major, and minor levels.</p>
+  <div id="bubble" style="width: 600%; height: 200px;"></div> <!-- Bubble chart container -->
+
+  <script>
+    // Load JSON data and render the Plotly bubble plot
+    fetch('bubble_plot.json')  // Point to the JSON file
+      .then(response => response.json())
+      .then(data => {
+        Plotly.newPlot('bubble', data.data, data.layout); // Plot the chart
+      })
+      .catch(error => {
+        console.error("Error loading JSON:", error); // Handle errors
+      });
+  </script>
+
+</body>
+</html>
