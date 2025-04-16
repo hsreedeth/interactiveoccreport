@@ -3,6 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <title>Skilled Occupation Visuals</title>
+  <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
   <link rel="stylesheet" href="styles.css">
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@200&display=swap" rel="stylesheet">
 </head>
@@ -16,27 +17,12 @@
   <p>This bubble chart shows how skilled occupations are distributed across the major, sub-major, and minor levels.</p>
   <div id="bubble"></div>
 
-  <h2>2. Sankey Diagram</h2>
-  <p>This diagram shows the occupational flow or mapping across different levels or sectors.</p>
-  <div id="sankey"></div>
-
-  <!-- Loading Plotly -->
-  <!--   <script src="https://cdn.plot.ly/plotly-5.0.0.min.js"></script> -->
-  <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
-
   <!-- Embedding the Plotly HTML -->
   <script>
     fetch('bubble_plot.json')
       .then(res => res.json())
       .then(data => {
         Plotly.newPlot('bubble', data.data, data.layout); // Plot the chart
-      })
-      .catch(error => console.error('Error loading JSON:', error));
-    
-    fetch('sankey_plot.json')
-      .then(res => res.json())
-      .then(data => {
-        Plotly.newPlot('sankey', data.data, data.layout); // Plot the Sankey diagram
       })
       .catch(error => console.error('Error loading JSON:', error));
   </script>
