@@ -3373,7 +3373,9 @@
       "text": "Shortage Occupation to Heirarchical Groups: A Sankey Diagram"
     },
     "font": {
-      "size": 6
+      "size": 10,
+      "family": "Inter, sans-serif",
+      "color": "#2c2c2c"
     },
     "height": 2700
   }
