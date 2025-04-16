@@ -77,12 +77,12 @@
         "Tertiary Education Teachers\u003cbr\u003e0.42%"
       ],
       "marker": {
-        "color": [    "#5A4860", "#5A4860", "#5A4860", "#5A4860", "#5A4860", // former Minor → now Major
+        "color": [    "#5A4860", "#5A4860", "#5A4860", "#5A4860", "#5A4860", 
     "#CBA4BB", "#CBA4BB", "#CBA4BB", "#CBA4BB", "#CBA4BB",
     "#CBA4BB", "#CBA4BB", "#CBA4BB", "#CBA4BB", "#CBA4BB",
     "#CBA4BB", "#CBA4BB", "#CBA4BB", "#CBA4BB", "#CBA4BB",
     "#CBA4BB", "#CBA4BB", "#CBA4BB", "#CBA4BB", "#CBA4BB",
-    "#F4E3DF", "#F4E3DF", "#F4E3DF", "#F4E3DF", "#F4E3DF", // former Major → now Minor
+    "#F4E3DF", "#F4E3DF", "#F4E3DF", "#F4E3DF", "#F4E3DF", 
     "#F4E3DF", "#F4E3DF", "#F4E3DF", "#F4E3DF", "#F4E3DF",
     "#F4E3DF", "#F4E3DF", "#F4E3DF", "#F4E3DF", "#F4E3DF",
     "#F4E3DF", "#F4E3DF", "#F4E3DF", "#F4E3DF", "#F4E3DF",
@@ -1177,9 +1177,9 @@
       },
       "automargin": true,
       "tickvals": [
-        1,
+        3,
         2,
-        3
+        1
       ],
       "ticktext": [
         "Major Group",
@@ -1188,7 +1188,7 @@
       ],
       "showgrid": false,
       "zeroline": false,
-      "autorange": "reversed"
+      "autorange": "false"
     },
     "height": 500
   }
