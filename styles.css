@@ -26,6 +26,11 @@
       margin-bottom: 20px;
     }
 
+    .semi-bold {
+      font-weight: 500; /* Inter Semi Bold */
+    }
+
+
     .divider {
       height: 1px;
       background-color: #5A4860;
