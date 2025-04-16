@@ -1,4 +1,4 @@
-        :root {
+    :root {
       --bg-color: #ffffff;
       --text-color: #2c2c2c;
       --subtext-color: #555;
@@ -56,13 +56,13 @@
     }
 
     .subheading,
-    p.standard-text {
-      font-weight: 400;
-      font-size: 0.65em;
-      color: #555;
-      margin-top: 0;
-      margin-bottom: 20px;
-    }
+       p.standard-text {
+          font-weight: 400;
+          font-size: 0.65em;
+          color: var(--subtext-color); /* Updated */
+          margin-top: 0;
+          margin-bottom: 20px;
+}
 
     .semi-bold {
       font-weight: 700; /* Inter Semi Bold */
@@ -71,12 +71,13 @@
 
     .divider {
       height: 1px;
-      background-color: #5A4860;
+      background-color: var(--divider-color);
       margin-bottom: 25px;
+      transition: background-color 0.3s ease;
     }
 
     .highlight {
-      color: orangered;
+      color: var(--highlight-color); /* Updated */
       font-weight: 400;
-    }
+}
 
