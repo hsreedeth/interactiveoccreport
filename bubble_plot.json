@@ -1219,20 +1219,20 @@
     "xaxis": {
       "title": {
         "text": "Percentage of Total Skilled Occupations",
-        "standoff": 20
+        "standoff": 55
       },
       
       "showgrid": true,
       "gridwidth": 1,
       "gridcolor": "lightgrey",
-      "griddash": "dot",
+      "dash": "dot",
       "zeroline": false,
       "automargin": true
     },
     "yaxis": {
       "title": {
         "text": "Occupation Hierarchy Level",
-        "standoff": 20
+        "standoff": 55
       },
       "automargin": true,
       "tickvals": [
