@@ -3362,7 +3362,12 @@
           "lakecolor": "white"
         },
         "title": {
-          "x": 0.05
+          "x": 0.05,
+          "font": {
+            "family": "Inter, sans-serif",
+            "size": 18,
+            "color": "#2c2c2c"
+  }
         },
         "mapbox": {
           "style": "light"
