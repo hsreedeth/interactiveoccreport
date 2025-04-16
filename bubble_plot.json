@@ -1167,7 +1167,7 @@
       "gridwidth": 1,
       "gridcolor": "lightgrey",
       "dash": "dot",
-      "zeroline": true,
+      "zeroline": false,
       "automargin": true
     },
     "yaxis": {
@@ -1177,9 +1177,9 @@
       },
       "automargin": true,
       "tickvals": [
-        1,
+        3,
         2,
-        3
+        1
       ],
       "ticktext": [
         "Major Group",
