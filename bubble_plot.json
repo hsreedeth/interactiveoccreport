@@ -1204,7 +1204,7 @@
         "layer": "below",
         "line": {
           "color": "lightgrey",
-          "dash": "dot",
+          "griddash": "dot",
           "width": 1
         },
         "type": "line",
@@ -1216,7 +1216,7 @@
       {
         "line": {
           "color": "lightgrey",
-          "dash": "dot",
+          "griddash": "dot",
           "width": 1
         },
         "type": "line",
